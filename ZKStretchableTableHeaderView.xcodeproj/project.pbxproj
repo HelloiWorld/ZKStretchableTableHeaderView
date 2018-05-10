@@ -13,6 +13,8 @@
 		3D65218320A41C2A00766E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D65218220A41C2A00766E8C /* Assets.xcassets */; };
 		3D65218620A41C2A00766E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D65218420A41C2A00766E8C /* LaunchScreen.storyboard */; };
 		3D65218920A41C2A00766E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65218820A41C2A00766E8C /* main.m */; };
+		3D65219420A41D3D00766E8C /* UIImageView+ContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65219020A41D3D00766E8C /* UIImageView+ContentFrame.m */; };
+		3D65219520A41D3D00766E8C /* ZKStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D65219320A41D3D00766E8C /* ZKStretchableTableHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3D65218520A41C2A00766E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D65218720A41C2A00766E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D65218820A41C2A00766E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D65219020A41D3D00766E8C /* UIImageView+ContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ContentFrame.m"; sourceTree = "<group>"; };
+		3D65219120A41D3D00766E8C /* ZKStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		3D65219220A41D3D00766E8C /* UIImageView+ContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ContentFrame.h"; sourceTree = "<group>"; };
+		3D65219320A41D3D00766E8C /* ZKStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKStretchableTableHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		3D65217820A41C2900766E8C /* ZKStretchableTableHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				3D65218F20A41D3D00766E8C /* ZKStretchableTableHeaderView */,
 				3D65217920A41C2900766E8C /* AppDelegate.h */,
 				3D65217A20A41C2900766E8C /* AppDelegate.m */,
 				3D65217C20A41C2900766E8C /* ViewController.h */,
@@ -67,6 +74,17 @@
 				3D65218420A41C2A00766E8C /* LaunchScreen.storyboard */,
 				3D65218720A41C2A00766E8C /* Info.plist */,
 				3D65218820A41C2A00766E8C /* main.m */,
+			);
+			path = ZKStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+		3D65218F20A41D3D00766E8C /* ZKStretchableTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				3D65219020A41D3D00766E8C /* UIImageView+ContentFrame.m */,
+				3D65219120A41D3D00766E8C /* ZKStretchableTableHeaderView.h */,
+				3D65219220A41D3D00766E8C /* UIImageView+ContentFrame.h */,
+				3D65219320A41D3D00766E8C /* ZKStretchableTableHeaderView.m */,
 			);
 			path = ZKStretchableTableHeaderView;
 			sourceTree = "<group>";
@@ -143,6 +161,8 @@
 			files = (
 				3D65217E20A41C2900766E8C /* ViewController.m in Sources */,
 				3D65218920A41C2A00766E8C /* main.m in Sources */,
+				3D65219420A41D3D00766E8C /* UIImageView+ContentFrame.m in Sources */,
+				3D65219520A41D3D00766E8C /* ZKStretchableTableHeaderView.m in Sources */,
 				3D65217B20A41C2900766E8C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VL9H584JL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZKStretchableTableHeaderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,8 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VL9H584JL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZKStretchableTableHeaderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
